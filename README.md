@@ -17,7 +17,7 @@ In order to make the matching more robust, we use RANdom Sampling And Consensus 
 ![after_ransac](https://user-images.githubusercontent.com/91099638/209487085-63aeac3d-c9ef-4725-886b-9882f3f79df2.png)
 
 We then calculate the homogrphy between the images based on those SIFT matches, and use backward warping to stitch the images together. 
-Note that in order to make the stiched image more natural, we use the MATLAB function "bwdist" to blend the images.
+Note that in order to make the stiched image more natural, we use the MATLAB function "bwdist" to blend the images smoothly.
 
 ![mountain_panorama](https://user-images.githubusercontent.com/91099638/209487099-2941a440-2084-4cf2-8ed9-54b320d33bb5.png)
 
